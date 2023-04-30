@@ -1,0 +1,51 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: url(/images/sun_rise.jpg) no-repeat center;
+    background-size: cover;
+    height: 100%;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    text-align: center;
+    margin: 20px;
+    color: white;
+}
+.container{
+    background-color: #37364c;
+    /* background: transparent; */
+    margin: 30px auto;
+    padding: 10px;
+    width: 70%;
+    max-width: 700px;
+    color: white;
+    font-size: 1.3rem;
+}
+.form{
+    position: relative;
+    margin: 20px; 
+}
+#radio-def,#radio-may,#radio-not{
+    display: block;
+}
+.input{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 5px; 
+    padding: 10px;   
+}
+.label{
+    display: block;
+    margin-top: 20px;
+}
+button{
+    background-color: rgb(71, 172, 71);
+    margin-top: 10px;
+    cursor: pointer;
+}
+table{
+    margin-top: 10px;
+}

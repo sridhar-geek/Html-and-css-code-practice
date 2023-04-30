@@ -1,0 +1,18 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background: no-repeat center/cover url(/images/mid_day.jpg);
+    height: 100vh;
+    /* background-size: ; */
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+.header img{
+    width: 100px;
+}
+

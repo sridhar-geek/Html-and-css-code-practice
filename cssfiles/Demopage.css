@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+   background-color:rgb(224,235,232) ;
+    display: flex;
+    justify-content: space-between;
+}
+.main img{
+    height: 100px;
+    margin: 29px;
+}
+.navigation{
+    padding: right 40px; ;
+}

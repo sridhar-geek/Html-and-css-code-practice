@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+main{
+ 
+}
+.container{
+ height: 100vh;
+}
+.image1{
+   background: no-repeat center url(/images/sun_rise.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+}
+.image2{
+   background: no-repeat center  url(/images/mid_day.jpg);
+ background-attachment: fixed;
+ background-size: cover;
+}
+.image3{
+   background: no-repeat center url(/images/sun_set.jpg);
+   background-attachment: fixed;
+   background-size: cover;
+}
+p{
+   /* position: absolute;
+   bottom: 0; */
+   background-color: black;
+   color: white;
+   padding: 10px;
+   margin: 5px auto;
+   transform: translateY(600px);
+}
+
+h1{
+   text-align: center;
+   /* transform: translate(350px,230px); */
+   background-color: black;
+   color: white;
+   width: 30%;
+}
